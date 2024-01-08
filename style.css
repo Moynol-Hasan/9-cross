@@ -67,16 +67,16 @@
     font-size: 1.5rem;
 }
 .twenty-five{
-    font-size: 1.5625rem;
+    font-size: 1.5rem;
 }
-.forty-five{
-    font-size: 2.8125rem;
+.forty{
+    font-size: 2.5rem;
 }
-.forty-eight{
-    font-size: 3rem;
+.forty-two{
+    font-size: 2.625rem;
 }
-.fifty{
-    font-size: 3.125rem;
+.forty-four{
+    font-size: 2.75rem;
 }
 
 
@@ -118,11 +118,11 @@ ul{
 .brand-text
 {
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;  /*changed*/
 }
 
 .heading p{
-    margin: 30px 0px;
+    padding: 50px 0px;
     text-align: center;
     color: #002063;
 }
@@ -177,6 +177,7 @@ ul{
 
 .container-four{
     max-width: 1100px;
+    padding: 50px 0px;
     margin-inline:auto;
     text-align: center;
 }
@@ -202,16 +203,16 @@ ul{
 
 .row-three{
     margin-top: 30px;
-    justify-content:center;
-    gap: 20px;
+    padding: 0px 190px;
+    justify-content:space-between;
 }
 
 .education-container{
     /* border: 1px solid black; */
     padding: 40px 0px;
     background-image: url(images/Rectangle1.png),url(images/Rectangle2.png);
-    background-size: 80%,15%;
-    background-position: 0% 0%,78% 0%;
+    background-size: 82%,15%;
+    background-position: 0% 0%,80% 0%;
     /* background-position:left top,right top; */
     background-repeat: no-repeat;
     /* background: #B59A5B; */
@@ -234,7 +235,7 @@ ul{
 
 .education-text
 {
-    margin-left: 100px;
+    margin-left: 70px;
     text-align: center;
     flex-direction: column;
 }
@@ -262,13 +263,18 @@ ul{
     flex-direction: row-reverse;
 }
 
+.illustration-img img{
+    width: 200px;
+    margin-right: 100px;
+}
+
 .illustration-container{
         /* flex-direction: row-reverse; */
         /* border: 1px solid black; */
         padding: 40px 0px;
         background-image: url(images/Rectangle4.png),url(images/Rectangle3.png);
-        background-size: 15%,80%;
-        background-position: 22% 0%,100% 0%;
+        background-size: 15%,82%;
+        background-position: 20% 0%,100% 0%;
         /* background-position:left top,right top; */
         background-repeat: no-repeat;
         /* background: #B59A5B; */
@@ -279,13 +285,9 @@ ul{
     padding: 10px 0px;
 }
 
-.illustration img{
-    width: 200px;
-    margin-right: 100px;
-}
 
 .illustration-text{
-    margin-left: 100px;
+    margin-left: 70px;
     text-align: center;
     flex-direction: column;
 }
@@ -345,7 +347,7 @@ ul{
 }
 
 .icon-three{
-    padding-top: 75px;
+    padding-top: 100px;
 }
 
 
